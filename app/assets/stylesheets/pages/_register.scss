@@ -33,6 +33,10 @@
     width: 350px;
     position: absolute;
     border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     &:before {
       height: 450px;
       width: 350px;
