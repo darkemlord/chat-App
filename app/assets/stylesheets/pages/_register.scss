@@ -1,0 +1,103 @@
+.authentication-container {
+  height: 100vh;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:before {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .form-title {
+    font-family: $pangolin;
+    margin-bottom: 20px !important;
+  }
+  .form-background{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    &:before {
+      content: '';
+      position: absolute;
+      background-image: url('background-general');
+      background-size: cover;
+      background-position: center;
+      opacity: 30%;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: -1;
+    }
+  }
+  .form-container {
+    height: 450px;
+    width: 350px;
+    position: absolute;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &:before {
+      height: 450px;
+      width: 350px;
+      content: '';
+      border-radius: 30px;
+      position: absolute;
+      background-color: $violet;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: -1;
+      opacity: 20%;
+    }
+    .form-inputs {
+      input {
+        height: 35px;
+        border-radius: 10px;
+        border: 2px solid rgba(138, 138, 138, 0.4);
+        background-color: rgba(229, 229, 229, 0.5);
+        font-family: $pangolin;
+        font-size: 15px;
+        color: $chat-white;
+        &:focus {
+          outline: none !important;
+        }
+      }
+    }
+  }
+}
+
+// USER FORM SIMPLE FORM
+
+#new_user {
+  width: 250px;
+  .form-actions {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.form-control {
+  &:focus {
+    border-style: none !important;
+    box-shadow: none !important;
+  }
+}
+
+::placeholder {
+  color: $chat-white !important;
+}
+
+.login-link {
+  color: white;
+  font-family: $pangolin;
+}
+
+.form-check-input {
+ height: 15px !important;
+}
