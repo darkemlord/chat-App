@@ -9,6 +9,10 @@
     align-items: center;
     justify-content: center;
   }
+  .form-title {
+    font-family: $pangolin;
+    margin-bottom: 20px !important;
+  }
   .form-background{
     height: 100%;
     width: 100%;
@@ -55,7 +59,10 @@
       input {
         height: 35px;
         border-radius: 10px;
+        border: 2px solid rgba(138, 138, 138, 0.4);
         background-color: rgba(229, 229, 229, 0.5);
+        font-family: $pangolin;
+        font-size: 15px;
         &:focus {
           outline: none !important;
         }
@@ -64,9 +71,23 @@
   }
 }
 
+// USER FORM SIMPLE FORM
+
+#new_user {
+  width: 250px;
+  .form-actions {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 .form-control {
   &:focus {
     border-style: none !important;
     box-shadow: none !important;
   }
+}
+
+::placeholder {
+  color: $chat-white !important;
 }

@@ -1,7 +1,7 @@
 <div class="authentication-container">
   <div class="form-background"></div>
   <div class="form-container">
-    <h2>Sign up</h2>
+    <h2 class="form-title">ChatBot App</h2>
     <%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
       <%= f.error_notification %>
       <div class="form-inputs">
@@ -21,7 +21,7 @@
                 input_html: { autocomplete: "new-password" } %>
       </div>
       <div class="form-actions">
-        <%= f.button :submit, "Sign up" %>
+        <%= f.button :submit, value: "Sign up", class:"btn-form" %>
       </div>
     <% end %>
     <%= render "devise/shared/links" %>
