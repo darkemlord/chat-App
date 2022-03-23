@@ -51,5 +51,22 @@
       z-index: -1;
       opacity: 20%;
     }
+    .form-inputs {
+      input {
+        height: 35px;
+        border-radius: 10px;
+        background-color: rgba(229, 229, 229, 0.5);
+        &:focus {
+          outline: none !important;
+        }
+      }
+    }
+  }
+}
+
+.form-control {
+  &:focus {
+    border-style: none !important;
+    box-shadow: none !important;
   }
 }
