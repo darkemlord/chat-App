@@ -1,3 +1,4 @@
 class Bot < ApplicationRecord
-  has_many :chatroom
+  has_many :chatrooms
+  has_many :messages, through: :chatrooms
 end
