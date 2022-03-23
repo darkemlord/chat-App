@@ -10,3 +10,22 @@
 .navbar-lewagon .navbar-brand img {
   width: 40px;
 }
+
+@media (max-width: 800px) {
+  .navbar-lewagon {
+    border-radius: 30px;
+    margin: 2%;
+    &:before{
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background-color: #E0E0E0;
+      opacity: 50%;
+      border-radius: 30px;
+      z-index: -1;
+    }
+  }
+}
