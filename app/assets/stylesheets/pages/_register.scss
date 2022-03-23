@@ -63,6 +63,7 @@
         background-color: rgba(229, 229, 229, 0.5);
         font-family: $pangolin;
         font-size: 15px;
+        color: $chat-white;
         &:focus {
           outline: none !important;
         }
@@ -95,4 +96,8 @@
 .login-link {
   color: white;
   font-family: $pangolin;
+}
+
+.form-check-input {
+ height: 15px !important;
 }
