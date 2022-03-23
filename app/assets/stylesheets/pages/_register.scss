@@ -1,3 +1,23 @@
 .authentication-container {
   height: 95vh;
+  z-index: -1;
+  .form-background{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    &:before {
+      content: '';
+      position: absolute;
+      background-image: url('background-general');
+      background-size: cover;
+      background-position: center;
+      opacity: 30%;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: -1;
+    }
+  }
 }
