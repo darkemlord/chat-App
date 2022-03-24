@@ -18,6 +18,27 @@
   }
 }
 
+.btn-banner {
+  height: 50px;
+  border: solid 2px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(180deg, rgba(125,208,208,0.4) 0%, rgba(208,125,125,0.4) 100%);
+  color: $chat-white;
+  border-radius: 10px;
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0px !important;
+  transition: 1000ms;
+  font-size: 25px;
+  font-family: $neucha;
+  &:hover {
+    background: $violet-op;
+    color: rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75) inset;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75) inset;
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75) inset;
+  }
+}
 .btn {
   transition: none;
 }
