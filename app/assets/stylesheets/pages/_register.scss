@@ -96,6 +96,9 @@
 .login-link {
   color: white;
   font-family: $pangolin;
+  &:hover {
+    color: $gray;
+  }
 }
 
 .form-check-input {
