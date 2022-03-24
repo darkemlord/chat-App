@@ -104,3 +104,19 @@
 .form-check-input {
  height: 15px !important;
 }
+
+
+// responsive
+
+@media (max-width: 400px) {
+  .authentication-container {
+    .form-container {
+      height: 400px;
+      width: 300px;
+      &:before {
+        height: 400px;
+        width: 300px;
+      }
+    }
+  }
+}
