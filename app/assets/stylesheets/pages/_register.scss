@@ -111,11 +111,25 @@
 @media (max-width: 400px) {
   .authentication-container {
     .form-container {
+      margin-top: 60px;
       height: 400px;
       width: 300px;
       &:before {
         height: 400px;
         width: 300px;
+      }
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  .authentication-container {
+    .form-container {
+      height: 380px;
+      width: 280px;
+      &:before {
+        height: 380px;
+        width: 280px;
       }
     }
   }
