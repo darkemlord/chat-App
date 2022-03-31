@@ -24,4 +24,24 @@
     height: 100%;
     z-index: -1;
   }
+  .card-left {
+
+  }
+  .card-right {
+    .card-title {
+      font-family: $ruthie;
+      font-size: 30px;
+    }
+    .card-content {
+      .description {
+        font-family: 'Bellefair', serif;
+        font-size: 12px;
+      }
+      .category {
+        font-family: $belle;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
 }
