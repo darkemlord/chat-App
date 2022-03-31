@@ -9,15 +9,15 @@
     <h1>Our bots</h1>
   </div>
   <div class="cards-container">
-    <div class="bot-card">
+    <div class="bot-card row ms-3">
       <div class="card-effect"></div>
-      <div class="card-left">
-        <%= image_tag("Lucy_avatar") %>
+      <div class="card-left col d-flex flex-column">
+        <%= image_tag("Lucy_avatar", class: "avatar") %>
         <button class="bot-button">chat</button>
       </div>
-      <div class="card-right">
+      <div class="card-right col">
         <h1 class="card-title">Lucy</h1>
-        <div class="card-content">
+        <div class="card-content d-flex">
           <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, earum?</p>
           <p class="category">Romance</p>
         </div>
