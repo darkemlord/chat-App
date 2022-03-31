@@ -25,7 +25,11 @@
     z-index: -1;
   }
   .card-left {
-
+    .avatar-card {
+      width: 65px;
+      height: 65px;
+      border-radius: 10px;
+    }
   }
   .card-right {
     .card-title {
